@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(217, 233, 255);
+}
+h4{
+    text-align: center;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 590px;
+    border: none;
+    padding: 10px;
+
+}
+.input1::placeholder{
+    color: rgb(185, 185, 185);
+}
+.input1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(206, 205, 205);
+    padding: 10px;
+    margin-left: 15px;
+    width: 200px;
+    
+}
+.login{
+    text-align: center;
+    color: rgb(38, 201, 138);
+    padding-top: 30px;
+    font-size: 30px;
+}
+.formbackground{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.2);
+}
+.btn2{
+    background-color: rgb(38, 201, 138);
+    color: white;
+    margin-left: 100px;
+    border: none;
+    padding: 10px;
+    width: 90px;
+    margin-top: 30px;
+}
+.btn2:hover{
+    color: rgb(26, 150, 102);
+}
+.lock{
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.formbackground2{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.2);
+}
+.input2::placeholder{
+    color: white;
+}
+.input2{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin-left: 15px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+}
+.formcontent2{
+    color: white;
+} 
+.login2{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.btn3{
+    background-color: blueviolet;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.envelope{
+    color: white;
+    padding-left: 10px;
+}
+.formgroup{
+    display: flex;
+    grid-template-columns: auto auto;
+    margin-left: 340px;
+    margin-top: 55px;
+}
+.signin1{
+    background-image: linear-gradient(to right , lightpink ,  deeppink);
+    color: white;
+    padding: 22px;
+    width: 300px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+}
+.signin1:hover{
+    color: peachpuff;
+}
+.signin2{
+    background-color: white;
+    color: orangered;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    padding: 22px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+}
