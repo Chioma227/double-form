@@ -8,10 +8,12 @@ h4{
     background-color: red;
     color: white;
     text-align: center;
-    margin-left: 590px;
     border: none;
     padding: 10px;
-
+}
+.free-download{
+    margin: auto;
+    width: fit-content;
 }
 .input1::placeholder{
     color: rgb(185, 185, 185);
@@ -104,8 +106,10 @@ h4{
 .formgroup{
     display: flex;
     grid-template-columns: auto auto;
-    margin-left: 340px;
+    margin: auto;
+    width: fit-content;
     margin-top: 55px;
+
 }
 .signin1{
     background-image: linear-gradient(to right , lightpink ,  deeppink);
@@ -131,4 +135,67 @@ h4{
     width: 300px;
     border-radius: 5px;
     box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+}
+@media (max-width:768px) {
+    .formgroup{
+        display: block;
+        /* grid-template-columns: auto auto; */
+        margin: auto;
+        width: fit-content;
+        margin-top: 55px;
+    
+    }
+    .signin1{
+        background-image: linear-gradient(to right , lightpink ,  deeppink);
+        color: white;
+        padding: 22px;
+        width: 300px;
+        border: none;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:375px) {
+    .formbackground{
+        background-color: white;
+        width: 280px;
+        height: 300px;
+        margin-left: 10px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.2);
+    }
+    .formbackground2{
+        background-color: blueviolet;
+        width: 280px;
+        height: 300px;
+        margin-left: 10px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.2);
+        margin-right: 25px;
+    }
+    .signin1{
+        background-image: linear-gradient(to right , lightpink ,  deeppink);
+        color: white;
+        padding: 22px;
+        width: 280px;
+        border: none;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+    }
+    .signin2{
+        background-color: white;
+        color: orangered;
+        margin-top: 30px;
+        margin-left: 10px;
+        border: none;
+        padding: 22px;
+        width: 280px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+    }
 }
